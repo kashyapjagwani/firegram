@@ -6,7 +6,7 @@
 .pnp.js
 
 # firebase
-/src/logo.svg
+/src/firebase
 
 # production
 /build
