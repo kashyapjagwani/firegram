@@ -41,10 +41,10 @@ const ImageModal = ({img, setImg}) => {
           </motion.div>
         </DialogContent>
         <DialogActions>
-          <Button autoFocus onClick={() => {setImg(null)}} color="primary">
+          <Button variant="flat" autoFocus onClick={() => {setImg(null)}} color="secondary">
             Cancel
           </Button>
-          <Button onClick={deleteImg} color="primary" autoFocus>
+          <Button variant="contained" onClick={deleteImg} color="secondary" autoFocus>
             Delete
           </Button>
         </DialogActions>
